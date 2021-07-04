@@ -5,7 +5,7 @@
       "error",
       {
         "ignoreUrls": true,
-        "code": 80
+        "code": 300
       }
     ],
     "prefer-template": "off",
@@ -22,14 +22,15 @@
     "camelcase": 1,
     "no-new-wrappers": 1,
     "no-nested-ternary": 1,
-    "no-console": 1,
+    "no-console": 0,
     "no-template-curly-in-string": 1,
     "no-self-compare": 1,
     "import/prefer-default-export": 0,
     "func-names": [1, "as-needed"],
     "arrow-body-style": 1,
     "semi": [1, "never"],
-    "import/no-extraneous-dependencies": ["off", { "devDependencies": false }]
+    "import/no-extraneous-dependencies": ["off", { "devDependencies": false }],
+    "import/no-webpack-loader-syntax": 0
   },
   "env": {
     "browser": true,
